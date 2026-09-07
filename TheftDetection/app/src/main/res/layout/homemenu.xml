@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#0E6655">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.82"
+            android:background="@drawable/buttontwo"
+            android:text="Menu"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/homemenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2.02"
+            android:background="@drawable/buttontwo"
+            android:text="Home Menu"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTwo"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linearLayout"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect to a device"
+            android:textColor="#FFFFFF"
+            android:id="@+id/connect"
+            android:layout_gravity="left"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutThree"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linearLayoutTwo"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFour"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linearLayoutThree"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/human"
+            android:id="@+id/humanImage"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Face detected"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:id="@+id/human"
+            android:layout_gravity="left"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayoutFive"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linearLayoutFour"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/database"
+            android:id="@+id/databaseImage"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theft added to database"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:id="@+id/database"
+            android:layout_gravity="left"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayoutSix"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linearLayoutFive"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/lockapp"
+            android:id="@+id/armImage"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arming magnet requested"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:id="@+id/arming"
+            android:layout_gravity="left"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+
+
+    <!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:id="@+id/video"
+        android:layout_gravity="left"
+        android:background="#FFA500"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+-->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:id="@+id/txtView" />
+
+</LinearLayout>

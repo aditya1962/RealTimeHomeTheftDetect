@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "807292880623",
+    "firebase_url": "https://theftdetection-973a2.firebaseio.com",
+    "project_id": "theftdetection-973a2",
+    "storage_bucket": "theftdetection-973a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807292880623:android:11d92e7120f459c3",
+        "android_client_info": {
+          "package_name": "com.firstapplication.aditya.theftdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807292880623-j9vfr30rfr09j8kgj8kaqfv82lf2okk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEvTfEEZ_kx_7lPb_340D7hrqsCeILrBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
