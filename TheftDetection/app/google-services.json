@@ -3,9 +3,38 @@
     "project_number": "807292880623",
     "firebase_url": "https://theftdetection-973a2.firebaseio.com",
     "project_id": "theftdetection-973a2",
-    "storage_bucket": "theftdetection-973a2.appspot.com"
+    "storage_bucket": "theftdetection-973a2.firebasestorage.app"
   },
   "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807292880623:android:0c4f455eb47e80173f3d1a",
+        "android_client_info": {
+          "package_name": "com.aditya1962.RealTimeHomeTheftDetect.theftdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807292880623-j9vfr30rfr09j8kgj8kaqfv82lf2okk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEvTfEEZ_kx_7lPb_340D7hrqsCeILrBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807292880623-j9vfr30rfr09j8kgj8kaqfv82lf2okk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
     {
       "client_info": {
         "mobilesdk_app_id": "1:807292880623:android:11d92e7120f459c3",
@@ -25,15 +54,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807292880623-j9vfr30rfr09j8kgj8kaqfv82lf2okk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

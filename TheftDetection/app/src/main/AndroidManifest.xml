@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.firstapplication.aditya.theftdetection">
+    package="com.aditya1962.RealTimeHomeTheftDetect.theftdetection">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -15,9 +15,7 @@
 
      <uses-feature android:name="android.hardware.camera" />
 
-     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="23" />
+     <uses-sdk android:targetSdkVersion="23" />
 
     <application
         android:allowBackup="true"
@@ -34,7 +32,7 @@
             android:value="face" />
 
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.Login">
+        <activity android:name=".Login">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
@@ -42,7 +40,7 @@
         </intent-filter>
          </activity>
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.Register">
+        <activity android:name=".Register">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -50,7 +48,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.ForgotPassword">
+        <activity android:name=".ForgotPassword">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -58,7 +56,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.Menu">
+        <activity android:name=".Menu">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -66,7 +64,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.Video">
+        <activity android:name=".Video">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -74,7 +72,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.PoliceMenu">
+        <activity android:name=".PoliceMenu">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -82,7 +80,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.UnresolvedIssues">
+        <activity android:name=".UnresolvedIssues">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -90,7 +88,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.TheftProfile">
+        <activity android:name=".TheftProfile">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -98,14 +96,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.HomeMenu">
+        <activity android:name=".HomeMenu">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.firstapplication.aditya.theftdetection.HomeMenuInfo">
+        <activity android:name=".HomeMenuInfo">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -113,7 +111,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.firstapplication.aditya.theftdetection.FaceTrackerActivity"
+        <activity android:name=".FaceTrackerActivity"
             android:label="Face Tracker"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="fullSensor">
@@ -123,7 +121,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.firstapplication.aditya.theftdetection.About"
+        <activity android:name=".About"
             android:label="Face Tracker"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="fullSensor">
@@ -133,7 +131,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.firstapplication.aditya.theftdetection.UpdateNeighbor"
+        <activity android:name=".UpdateNeighbor"
             android:label="Face Tracker"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="fullSensor">
@@ -143,7 +141,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.firstapplication.aditya.theftdetection.UpdateProfile"
+        <activity android:name=".UpdateProfile"
             android:label="Face Tracker"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="fullSensor">
@@ -153,7 +151,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.firstapplication.aditya.theftdetection.UserSettings"
+        <activity android:name=".UserSettings"
             android:label="Face Tracker"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="fullSensor">
@@ -163,7 +161,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.firstapplication.aditya.theftdetection.VideoCapture"
+        <activity android:name=".VideoCapture"
             android:label="Face Tracker"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="fullSensor">

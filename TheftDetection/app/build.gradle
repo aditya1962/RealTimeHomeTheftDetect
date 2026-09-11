@@ -11,13 +11,33 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.firstapplication.aditya.theftdetection"
+        applicationId "com.aditya1962.RealTimeHomeTheftDetect.theftdetection"
+
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        Properties localProperties = new Properties()
+        File localPropertiesFile = rootProject.file('local.properties')
+        if (localPropertiesFile.exists()) {
+            localProperties.load(new FileInputStream(localPropertiesFile))
+        }
+
+        // Fetch from properties file, fallback to environment variable, or use empty string
+        String dbUrl = localProperties.getProperty("DATABASE_URL")
+        if (dbUrl == null) {
+            dbUrl = System.getenv("DATABASE_URL")
+        }
+        if (dbUrl == null) {
+            dbUrl = '""' // Fallback to safe empty string
+        }
+
+        // Inject the configuration into the generated BuildConfig class
+        buildConfigField "String", "DATABASE_URL", dbUrl
     }
+
     buildTypes {
         release {
             minifyEnabled false
