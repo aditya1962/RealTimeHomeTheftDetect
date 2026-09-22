@@ -9,7 +9,7 @@
 
 </div>
 
-<p align="left"><b>RealTimeHomeTheftDetect</b> is the repository which hosts the source code of the Android and Arduino code used in the [research](https://doi.org/10.31224/8248).</p>
+<p align="left"><b>RealTimeHomeTheftDetect</b> is the repository which hosts the source code of the Android and Arduino code used in the <a href = "https://doi.org/10.31224/8248">research</a>.</p>
 
 # System Architecture
 
